@@ -1,0 +1,132 @@
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.navbar a {
+  color: #00B7FF;
+}
+.navbar{
+  height: 70px;
+  width: 100% ; 
+  background-color: #2874f0;
+   
+}
+/* #icoi{
+  text-decoration: none;
+  color: white; */
+
+.navbar li{
+  list-style: none;
+  display:  inline;
+  font-size: larger;
+   padding: 10px;
+   color: aliceblue;
+    
+
+}
+ 
+.list{
+  padding-left: 40px;
+  border-radius: 2px;
+}
+.navtwo{
+  padding-top: 10px;
+}
+.banner img{
+  width: 999px;
+  height: 400px;
+  background-color:black ;
+  margin-top: 80px;
+  margin-left: 210px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+ 
+#pho{
+  margin-left:1px;
+  margin-top: 0px;
+input{
+  border-radius: 5px;
+}
+ #size{
+  height: 35px;
+  width: 600px;
+  font-size: large;
+  margin-left:230px;
+ }
+ button{
+  height: 30px;
+  width:100px ;
+   border-radius: 10px;
+ }
+ .box{
+  height: 600px;
+  width: 1000px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 250px;
+ }
+ #ico{
+   font-weight: 200;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: yellow;
+  font-size: x-large;
+ }
+ .box1{
+  height: 60px;
+  width:1000px ;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 250px;
+ }
+ #siz{
+  height: 35px;
+  width: 600px;
+  margin-left: 200px;
+ }
+ .navfour{
+  height: 500px;
+  width: 500px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  margin-left: 500px;
+  margin-top: 90px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(67, 70, 70);
+ }
+ #but{
+  height: 20px;
+  width: 200px;
+  border-top:none ;
+  border-left: none;
+  border-right: none;
+  font-size: larger;
+  background-color:  azure ;
+  outline: none;
+  padding-bottom: 10px;
+   
+ }
+ #use{
+  padding-right: 100px;
+  
+ }
+ .box.h1{
+    font-size: 24px;
+    font-weight: normal;
+ }
+ #a{
+  font-weight: 30px;
+ }
+ .class{
+  display: inline;
+ }
+ .card-img-top{
+  height: 300px;
+  width: 90px;
+  padding: 20px;
+  padding-left: 20px;
+ }
+  
+   
+ 
+ 
+ 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reg</title>
+</head>
+<style>
+  .petti {
+    margin-left: 400px;
+    box-shadow: rgba(0, 2, 4, 0.3) 0px 0px 0px 3px;
+    height: 600px;
+    width: 700px;
+    margin-top: 50px;
+    background-color: #2874f0;
+
+  }
+
+  .form-group {
+    margin-left: 200px;
+  }
+
+  .btn {
+    margin-left: 200px;
+
+  }
+
+  h1 {
+    margin-left: 230px;
+    font-size: xx-large;
+    font-weight: 700;
+
+  }
+
+  #colo {
+    color: rgb(39, 143, 228);
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    margin-right: 60px;
+  }
+</style>
+
+<body>
+  <div class="petti ">
+    <br>
+    <h1>REGISTRATION</h1>
+    <br><br>
+    
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <form action="/RegData" method="post">
+            <label for=" ">Firstname</label>
+            <input type="text" class="form-control" id="inputEmail4"   name="name">
+        </div>
+        <br>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password" name="password">
+        </div>
+      </div>
+      <br>
+      <div class="form-group col-md-6">
+        <label for="inputAddress">Mobile</label>
+        <input type="number" class="form-control" id="mobile"  name="mobile" >
+      </div>
+      <br> 
+      <div class="form-group col-md-6">
+       <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email">
+      </div>
+      {{!-- <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity" name="city">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">State</label> --}}
+          {{!-- <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select> --}}
+        </div>
+        {{!-- <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div> --}}
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          {{!-- <input class="form-check-input" type="checkbox" id="gridCheck"> --}}
+          {{!-- <label class="form-check-label" for="gridCheck">
+            Check me out --}}
+          </label>
+        </div>
+      </div>
+      {{!-- <button type="submit" class="btn btn-light" id="colo"> Register</button> --}}
+      <input type="submit" value="register" id="">
+    </form>
+  </div>
+</body>
+
+</html>
