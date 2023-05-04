@@ -8,8 +8,9 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var con= require('./config/config')
 const session = require('express-session')
-const fileUpload=require('express-fileUpload');
-const razorpay = require('./payments/razorpay')
+
+const razorpay = require('./payments/razorpay');
+const fileUpload = require('express-fileupload');
 var app = express();
 
 // view engine setup
